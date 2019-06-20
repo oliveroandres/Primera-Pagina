@@ -1,0 +1,99 @@
+body{
+    font-family: 'Fresca', sans-serif;
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+}
+header img{
+    border-radius: 50%;
+    float: left;
+    margin-left: 1.0em;
+}
+header h1{
+    color: blue;
+    margin-top: 0.5em;
+    margin-left: 15em;
+    padding: 0em 0em 0em 4em;
+}
+header nav{
+    background: white;
+    padding: 0.1em 0em 0.1em 0;
+    margin: 5em 0.2em 0em 11em;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 0.1em;
+    background: #FFBCAC;
+    padding: 0.1em 0.2em;
+    width: 8em;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: #FF7400;
+    text-decoration: none;
+    padding: 0.1em 0em;
+    text-align: center;
+    width: 10em;
+    font-size: 0.8em;
+}
+header nav ul li a:hover{
+    background: #99A7FF;
+    color : white;
+}
+
+header{
+    background: blueviolet;
+    overflow: auto;
+}
+
+
+
+
+header{
+    background: #FFF7A1;
+    
+}
+
+section{
+   background: #FFA3A1;
+   padding: 2em; 
+   float: left;
+   width: 60%;
+   
+}
+p{
+    text-align: justify;
+}
+
+aside{
+    background: #CDF59A;
+    padding: 2em;
+    margin-left: 66%;
+}
+
+footer{
+    background: #3C6CBF;
+    /*padding: 2em;*/
+    clear: both;
+}
+footer #up{
+    background: #99A7FF;
+    padding: 1em 0 1em 0;
+}
+footer #down {
+    background: #FFF7A1;
+    padding: 1em 0 1em 0;
+}
+footer p {
+    text-align: center;
+}
+#main{
+
+    background: #FFA3A1;
+}
+/*para una calse se llama con .
+para asignar una clase class="nombre de la clase"*/
